@@ -8,7 +8,7 @@ import (
 	"strconv"
 )
 
-// Day 01 - Calorie Counting
+// Day 1: Calorie Counting
 func main() {
 	// open from the input file
 	fileScanner := getFileScanner("day1input.txt")
