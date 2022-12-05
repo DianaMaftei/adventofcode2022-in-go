@@ -1,9 +1,9 @@
 package main
 
-// test the output of main for day 4
+// test the output of main for day 5
 func ExampleMain() {
 	main()
 
 	// Output:
-	// 841
+	// VHJDDCWRD
 }
