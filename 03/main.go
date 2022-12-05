@@ -74,10 +74,6 @@ func main() {
 	// read line by line
 	for fileScanner.Scan() {
 		line := fileScanner.Text()
-		if len(line)%2 != 0 {
-			fmt.Printf("unever number of itemsInFirstBackpack in the rucksack: %s\n", line)
-			break
-		}
 
 		// get common items for all 3 elves
 		commonItemsInThisBackpack := make(map[string]bool, 0)
